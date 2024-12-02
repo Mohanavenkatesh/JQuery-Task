@@ -1,0 +1,29 @@
+body{
+    background-color:rgb(145, 222, 135) ;
+}
+
+.top_div{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.inputtag{
+    margin: 0px 0px 20px 0px ;
+    padding: 10px 20px 10px 20px ;
+    border-radius: 5px;
+}
+
+.add_btn{
+    padding:10px 20px 10px 20px  ;
+    border-radius: 5px;
+}
+
+.completed{
+
+    text-decoration: line-through;
+    color: grey;
+}
