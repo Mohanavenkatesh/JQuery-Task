@@ -1,8 +1,9 @@
 body{
-    background-color:rgb(145, 222, 135) ;
+    background-color: #FFAFBD;
 }
 
-.top_div{
+
+.top_div {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -10,20 +11,70 @@ body{
     align-items: center;
 }
 
+.heading {
+    color: white;
 
-.inputtag{
-    margin: 0px 0px 20px 0px ;
-    padding: 10px 20px 10px 20px ;
-    border-radius: 5px;
 }
 
-.add_btn{
-    padding:10px 20px 10px 20px  ;
-    border-radius: 5px;
+.ul_div {
+    color: white;
 }
 
-.completed{
+.main {
+    padding: 50px 150px 50px 150px;
+    border-radius: 15px;
+
+    background: #C9FFBF;  
+    background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF); 
+    background: linear-gradient(to right, #FFAFBD, #C9FFBF); 
+    
+}
+
+.inputtag {
+    margin: 0px 0px 20px 0px;
+    padding: 10px 50px 10px 50px;
+    border-radius: 10px;
+    border-color: #FFAFBD;
+}
+
+.add_btn {
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    border-color: #FFAFBD;
+}
+
+.completed {
 
     text-decoration: line-through;
-    color: grey;
+    color: rgb(255, 255, 255);
+}
+
+
+li {
+    color: white;
+    margin: 10px;
+}
+
+
+.completed_btn{
+    border: none;
+    border-color: #FFAFBD;
+    padding: 5px;
+    border-radius:5px;
+}
+
+
+.edit_btn{
+    border: none;
+    border-color: #FFAFBD;
+    padding: 5px;
+    border-radius:5px;
+}
+
+
+.remove_btn{
+    border: none;
+   border-color: #FFAFBD;
+    padding: 5px;
+    border-radius:5px;
 }

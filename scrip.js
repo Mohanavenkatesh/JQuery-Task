@@ -4,7 +4,13 @@ $(document).ready(function () {
 
     $('#btn').click(function () {
 
-        var inputvalue = $('#input').val();
+        var inputvalue = $('#input').val().toUpperCase();
+
+
+
+        $('input')
+
+        
 
         if (inputvalue) {
 
@@ -20,16 +26,12 @@ $(document).ready(function () {
 
         });
 
-
         // Remove Button
-
 
         $('#ul_div').on('click', '.remove_btn', function () {
 
             $(this).parent().remove()
         })
-
-
 
         // Edit Button
 
@@ -39,13 +41,13 @@ $(document).ready(function () {
 
             var now = $value.text();
 
-           
-            if($value){
+
+            if ($value) {
                 var newValue = prompt('Editting Your Task')
                 $value.text(newValue)
             }
 
-            
+
 
 
         })
